@@ -23,3 +23,8 @@ power up your OpenBCI 32bit board, and then put it into bootloader mode:
     Release the PROG button
     
 No you can upload the sketch to your OpenBCI 32bit board! Brilliant!
+
+
+## Note:
+This code does not play well with the SD card yet! The SD code has not been implemented in this code!
+We need to port the SD library from the chipKIT mpide back to Arduino...
