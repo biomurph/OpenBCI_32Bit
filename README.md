@@ -19,6 +19,10 @@ place the OpenBCI_32bit_SD folder inside your
     Documents/Arduino
 folder.
 
+place the OpenBCI_SD folder inside your
+	Documents/Arduino
+folder.
+
 Then re-start the Arduino IDE. You should see a long list of chipKIT compatible boards in the Tools-Boards drop down menu. Select OpenBCI 32 (!) as your board.
 
 Select the OpenBCI_32bit program from your scketch folder.
