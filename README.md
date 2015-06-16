@@ -3,12 +3,19 @@
 
 Make sure you have the latest Arduino IDE installed on your computer.
 
-Select the folder that is for your OS.
+Go here https://github.com/biomurph/chipKIT-core-prebuilt and select the folder that is for your OS.
 The chipkit-core folder that is located inside should be placed in your
     Documents/Arduino/hardware
 folder. If you don't have a hardware folder, go ahead and make one.
 
-place the OpenBCI_32 folder inside your
+There are two library folders here:
+    OpenBCI_32  is the base OpenBCI library
+    OBCI32_SD is the library that allows for SD card writing
+Place them into your
+        Documents/Arduino/libraries
+folder. If you don't have a libraries folder, go ahead adn make one.
+
+place the OpenBCI_32bit_SD folder inside your
     Documents/Arduino
 folder.
 
@@ -25,6 +32,3 @@ power up your OpenBCI 32bit board, and then put it into bootloader mode:
 No you can upload the sketch to your OpenBCI 32bit board! Brilliant!
 
 
-## Note:
-This code does not play well with the SD card yet! The SD code has not been implemented in this code!
-We need to port the SD library from the chipKIT mpide back to Arduino...
